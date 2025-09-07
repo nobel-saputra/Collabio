@@ -156,7 +156,12 @@ const Footer = () => {
         {/* Bottom Border */}
         <div className="border-t border-gray-800/50 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Collabio. All rights reserved.</p>
+            <p className="text-gray-500 text-sm">
+              © {new Date().getFullYear()} Collabio. All rights reserved. Made By{" "}
+              <Link href={"https://github.com/nobel-saputra"} className="font-bold border-b hover:text-white transition duration-500">
+                Nobel
+              </Link>
+            </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {legalLinks.slice(0, 2).map((link, index) => (
                 <Link key={index} href={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">
