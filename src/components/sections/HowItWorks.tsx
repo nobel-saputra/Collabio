@@ -38,7 +38,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <section id="collabs" className="relative py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1/2 bg-indigo-50/30"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-200/20 rounded-full blur-3xl"></div>

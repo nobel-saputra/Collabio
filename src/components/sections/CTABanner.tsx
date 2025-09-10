@@ -13,7 +13,7 @@ const CTABanner = () => {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-r from-indigo-600 via-indigo-700 to-sky-600 overflow-hidden">
+    <section id="collab" className="relative py-24 bg-gradient-to-r from-indigo-600 via-indigo-700 to-sky-600 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>

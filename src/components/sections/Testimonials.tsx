@@ -99,7 +99,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="relative py-24 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
+    <section id="testimonial" className="relative py-24 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-br from-indigo-100/30 to-purple-100/30 rounded-full blur-3xl animate-pulse"></div>
